@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="100 100 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Target circles -->
+        <circle cx="400" cy="400" r="250" fill="#E6E6E6"/>
+        <circle cx="400" cy="400" r="200" fill="#25C2A0"/>
+        <circle cx="400" cy="400" r="150" fill="#1FA588"/>
+        <circle cx="400" cy="400" r="100" fill="#1A8870"/>
+        <circle cx="400" cy="400" r="50" fill="#FFFFFF"/>
+        
+        <!-- Arrow -->
+        <path d="M580,400 L620,400 L600,370 L580,400 Z" fill="#25C2A0"/>
+        <line x1="200" y1="400" x2="580" y2="400" stroke="#25C2A0" stroke-width="8"/>
+        
+        <!-- Small target indicators -->
+        <circle cx="400" cy="400" r="5" fill="#25C2A0"/>
+        <line x1="390" y1="400" x2="410" y2="400" stroke="#25C2A0" stroke-width="2"/>
+        <line x1="400" y1="390" x2="400" y2="410" stroke="#25C2A0" stroke-width="2"/>
+    </g>
+</svg> 

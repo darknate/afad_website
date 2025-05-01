@@ -1,0 +1,23 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.featureLink {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.2s;
+}
+
+.featureLink:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+}
