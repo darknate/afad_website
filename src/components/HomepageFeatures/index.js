@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Telegram Blog [RU]',
+    title: 'Telegram Channel [RU]',
     url: 'https://t.me/digital_ponos',
     Svg: require('@site/static/img/undraw_social_sharing.svg').default,
     description: (
