@@ -10,7 +10,8 @@ const FeatureList = [
     description: (
       <>
         Follow my <a href="https://t.me/digital_ponos" target="_blank" rel="noopener noreferrer">Telegram channel</a> where 
-        I share thoughts on my work in 💻 tech, 📚 learning, 🌱 self-development, 🕒 productivity, and 🏥 health.
+        I share thoughts on my work in 💻 tech, 📚 learning, 🌱 self-development, 🕒 productivity, and 🏥 health. <br />
+        Web version of the channel is <a href="https://blog.afadeev.com" target="_blank" rel="noopener noreferrer">available on Teletype</a>.
       </>
     ),
   },
