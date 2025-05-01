@@ -30,7 +30,8 @@ export default function About() {
                 <div className="card__body">
                   <p>
                     Hi, I'm Alex — a tech leader with a versatile background spanning software engineering, product management, 
-                    team leadership, and strategic development.
+                    team leadership, and strategic development. <br />
+                    I mostly reside in Europe, Germany 🇩🇪
                   </p>
                   <p>
                     📧 <a href="mailto:alex@afadeev.com">alex@afadeev.com</a>
