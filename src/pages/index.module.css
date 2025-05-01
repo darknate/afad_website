@@ -21,3 +21,20 @@
   align-items: center;
   justify-content: center;
 }
+
+.profileImageContainer {
+  margin-bottom: 2rem;
+}
+
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.profileImage:hover {
+  transform: scale(1.05);
+}

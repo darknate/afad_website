@@ -10,6 +10,9 @@ export default function About() {
       description="About Alex Fadeev">
       <main className="container margin-vert--lg">
         <div className="text--center margin-bottom--xl">
+          <div className={styles.profileImageContainer}>
+            <img src="/img/me.jpg" alt="Alex Fadeev" className={styles.profileImage} />
+          </div>
           <Heading as="h1" className="hero__title">
             About Me
           </Heading>
