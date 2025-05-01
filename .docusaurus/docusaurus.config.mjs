@@ -9,8 +9,6 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://afadeev.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {

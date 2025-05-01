@@ -20,7 +20,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_goals.svg').default,
     description: (
       <>
-        <a href="https://gs.afadeev.com" target="_blank" rel="noopener noreferrer">Практикум простых инструментов</a>, которые помогут 
+        <div className={styles.paidBadge}>💎 Paid Content</div>
+        <a href="https://gs.afadeev.com" target="_blank" rel="noopener noreferrer"> Практикум простых инструментов</a>, которые помогут 
         не откладывать дела и не тратить время на ожидание удобного момента 🎯
       </>
     ),
