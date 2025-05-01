@@ -92,3 +92,13 @@
   font-size: 1.5rem;
   text-align: center;
 }
+
+/* Navbar logo styling */
+.navbar__logo img {
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.navbar__logo img:hover {
+  transform: scale(1.05);
+}

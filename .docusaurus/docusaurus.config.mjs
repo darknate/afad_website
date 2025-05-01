@@ -9,6 +9,8 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://afadeev.com",
   "baseUrl": "/",
+  "organizationName": "afadeev",
+  "projectName": "afad_website",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -31,12 +33,12 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/logo_sh.png",
     "navbar": {
       "title": "Alex Fadeev",
       "logo": {
-        "alt": "Alex Fadeev website logo",
-        "src": "img/logo.svg"
+        "alt": "Alex Fadeev Logo",
+        "src": "img/logo_sh.png"
       },
       "items": [
         {

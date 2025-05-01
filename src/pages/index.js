@@ -25,7 +25,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={siteConfig.title}
+      title=""
       description="Personal website of Alex Fadeev">
       <HomepageHeader />
       <main>
