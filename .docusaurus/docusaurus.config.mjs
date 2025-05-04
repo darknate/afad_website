@@ -299,14 +299,6 @@ export default {
         "trackingID": "G-DL7LD861H6",
         "anonymizeIP": true
       }
-    ],
-    [
-      "@docusaurus/plugin-sitemap",
-      {
-        "changefreq": "weekly",
-        "priority": 0.5,
-        "filename": "sitemap.xml"
-      }
     ]
   ],
   "baseUrlIssueBanner": true,
