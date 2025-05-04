@@ -1,0 +1,129 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "312": [
+      312
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "1f391b9e": [
+      869,
+      61
+    ],
+    "393be207": [
+      134
+    ],
+    "7792a21f": [
+      869,
+      220
+    ],
+    "a7456010": [
+      235
+    ],
+    "c4f5d8e4": [
+      869,
+      634
+    ],
+    "styles": [
+      61,
+      220,
+      354,
+      634,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "61": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.39af5ba7.js",
+          "hash": "2224789e5773a7f1",
+          "publicPath": "/assets/js/1f391b9e.39af5ba7.js"
+        }
+      ]
+    },
+    "134": {
+      "js": [
+        {
+          "file": "assets/js/393be207.6ff3871b.js",
+          "hash": "dfd7eb1e42f65f18",
+          "publicPath": "/assets/js/393be207.6ff3871b.js"
+        }
+      ]
+    },
+    "220": {
+      "js": [
+        {
+          "file": "assets/js/7792a21f.e8fd52e3.js",
+          "hash": "8702fc452cf7541a",
+          "publicPath": "/assets/js/7792a21f.e8fd52e3.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.d269fdba.js",
+          "hash": "055f9cf2369c729d",
+          "publicPath": "/assets/js/a7456010.d269fdba.js"
+        }
+      ]
+    },
+    "312": {
+      "js": [
+        {
+          "file": "assets/js/312.5a344c67.js",
+          "hash": "ce51eb58426b2634",
+          "publicPath": "/assets/js/312.5a344c67.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.a59cf518.js",
+          "hash": "4430d40d862ce810",
+          "publicPath": "/assets/js/runtime~main.a59cf518.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.b8e304f5.js",
+          "hash": "6286769ac83ebba1",
+          "publicPath": "/assets/js/c4f5d8e4.b8e304f5.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.198ab889.js",
+          "hash": "ffd791113852e6b2",
+          "publicPath": "/assets/js/main.198ab889.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.2d06c1bb.css",
+          "hash": "465965ce7235719d",
+          "publicPath": "/assets/css/styles.2d06c1bb.css"
+        }
+      ]
+    }
+  }
+}
