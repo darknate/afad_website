@@ -292,6 +292,23 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "plugins": [
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        "trackingID": "G-DL7LD861H6",
+        "anonymizeIP": true
+      }
+    ],
+    [
+      "@docusaurus/plugin-sitemap",
+      {
+        "changefreq": "weekly",
+        "priority": 0.5,
+        "filename": "sitemap.xml"
+      }
+    ]
+  ],
   "baseUrlIssueBanner": true,
   "future": {
     "experimental_faster": {
@@ -314,7 +331,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

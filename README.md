@@ -1,41 +1,57 @@
-# Website
+# afadeev.com
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Personal website of Alex Fadeev, built with [Docusaurus](https://docusaurus.io/).
 
-### Installation
+## Features
+- Custom About page with profile, skills, and contact info
+- Telegram, Substack, and Goal Setting Guide integrations
+- Custom favicon and logo
+- Custom 404 page
+- Google Analytics (GA4)
+- Sitemap.xml for SEO
+- Security headers (CSP, HSTS, etc.) for Netlify
 
-```
-$ yarn
-```
+## Installation
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+```sh
+npm install
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Local Development
 
-### Deployment
-
-Using SSH:
-
+```sh
+npm start
 ```
-$ USE_SSH=true yarn deploy
-```
+Visit [http://localhost:3000](http://localhost:3000) to view the site.
 
-Not using SSH:
+## Build
 
+```sh
+npm run build
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+The static site will be output to the `build/` directory.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Deployment
+- Deploy the contents of `build/` to your static host (Netlify, Vercel, etc.)
+- For Netlify, the `_headers` file in `static/` will be copied to the root for security headers.
+
+## Security
+- Security headers and CSP are set via `static/_headers` (for Netlify)
+- All external links use `rel="noopener noreferrer"`
+
+## Analytics
+- Google Analytics 4 is enabled (G-DL7LD861H6)
+
+## Sitemap
+- A `sitemap.xml` is generated automatically at build time
+
+## Custom 404
+- A custom 404 page is shown for all unknown routes
+
+## Maintenance
+- To update dependencies: `npm update`
+- To check for vulnerabilities: `npm audit`
+- To clear cache: `npm run clear`
+
+## License
+MIT
