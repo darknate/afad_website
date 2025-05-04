@@ -112,6 +112,11 @@ export default function About() {
           </div>
         </div>
       </main>
+      <div style={{ display: 'flex', justifyContent: 'center', margin: '2rem 0' }}>
+        <a href="https://www.buymeacoffee.com/afadeev" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Book" style={{height: '60px', width: '217px'}} />
+        </a>
+      </div>
     </Layout>
   );
 } 
