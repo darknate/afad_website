@@ -34,7 +34,7 @@ const FeatureList = [
     description: (
       <>
         Follow my <a href="https://afadeev.substack.com" target="_blank" rel="noopener noreferrer">Substack blog</a> where 
-        I write about software engineering, system architecture, infrastructure, and building things that scale 📝
+        I write about software engineering, system architecture, infrastructure, security,and building things that scale 📝
       </>
     ),
   },
