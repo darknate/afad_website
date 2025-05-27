@@ -28,13 +28,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Tech Blog [EN] - soon',
-    // url: 'https://afadeev.substack.com',
+    title: 'Tech Blog [EN]',
+    url: 'https://afadeev.substack.com',
     Svg: require('@site/static/img/undraw_blog.svg').default,
     description: (
       <>
-        {/* Follow my <a href="https://afadeev.substack.com" target="_blank" rel="noopener noreferrer">Substack blog</a> where  */}
-        <strong>Coming soon:</strong> Follow my Substack blog where 
+        Follow my <a href="https://afadeev.substack.com" target="_blank" rel="noopener noreferrer">Substack blog</a> where 
         I write about software engineering, system architecture, infrastructure, and building things that scale 📝
       </>
     ),
